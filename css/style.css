@@ -1,5 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
+    font-family: 'Montserrat', sans-serif;
 }
 /* Containers */
 .container-wrapper {}
@@ -10,7 +11,7 @@ body {
 .alert-container {}
 .callout-container {
     height: 100vh;
-    background: url('../images/whiskey-background.jpg') no-repeat center center fixed;
+    background: url('../images/whiskey_bkg2.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -147,7 +148,7 @@ body {
     padding-right: 0;
 }
 .site-wide-alert {
-    color: #544600;
+    color: #45301c;
     background-color: #eec802;
     border-color: #eec802;
     padding: 5px 15px;
@@ -191,3 +192,19 @@ blockquote.quote {
     margin-top: 10px;
     color: #f05f40;
 }
+
+/* Features Table .table-condensed */
+
+.table-condensed {
+    width: 75%;
+    font-size: x-small;
+    margin: 15px 0px 0px 45px;
+}
+
+/*font size for mobiles in the features table*/
+@media screen and (max-width: 640px) {
+ .table-condensed {
+    font-size: small;
+  }
+}
+
